@@ -26,9 +26,21 @@ public abstract class Courses {
     public abstract void math();
     public  void art(){
         System.out.println("Painting");
+    }
 
 
-    };
+    //final mehtod'lar override edilemez,halbuki abstrack methodlar override edilmek icin olusturulurlar
+    //bu celikcikir, bu yuzden Java abstract methodlarin final olmasina musade etmez.
+   // public final abstract void science();
+
+    //Concrete Class'lar final oldugunda Child Class's sahip olamazlar
+    //Ama "Abstract Class"lar icin Child Class omalidir.cunku Child Class';lar abstract parent classdaki abstract methodlari kullanilir
+    //bu yuzden Java Abstract Classlarin final olmasina musade etmez
+
+    //"abstract method"lar private olamazlar, cunku child classlar abstract methodlari kullanirlar,private yapinca kullanima kapali olur.
+    //bu celiskidir, bu yuzden Java abs methodlarin private olmasina musade etmez
+
+    //"Abs methotlar " static olmazlar, cunku static methodlari override edilemez, ama abs metholar override edilmek icin olusturulur.
 
 
 
