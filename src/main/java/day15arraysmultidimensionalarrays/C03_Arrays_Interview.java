@@ -14,6 +14,7 @@ public class C03_Arrays_Interview {
         int yeni[]=new int [original.length]; //[0,0,0,0,0,0]
         int idx=0;
 
+
         for (int i=0;i<original.length;i++){
 
             if (original[i] !=0){

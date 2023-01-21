@@ -14,15 +14,21 @@ public class practice02 {
            */
 
 
-        Scanner input=new Scanner(System.in);
-        System.out.println("Lutfen bir cumle giriniz");
-        String str=input.nextLine();
-
-        int counter=0;
-        String WSplit[]=str.split("");
-        Arrays.sort(WSplit);
+//
 
 
+//        int[][] x = {{2, 1}, {5, 7, 6}};
+//        System.out.println(m(x)); }
+//    public static int m(int[][] m) {
+//        int result = m[0][1];
+//        for (int i = 0; i < m.length; i++) {
+//            for (int j = 0; j < m[i].length; j++) { if (result < m[i][j]) {
+//                result = m[i][j]; }
+//            } }
+//        return result;}
+
+
+    }}
 
 
 //        for (int i = 0; i < WSplit.length ; i++) {
@@ -31,7 +37,7 @@ public class practice02 {
 //            if (WSplit[i]==WSplit[i]){
 //                counter++;
 //            }
-       }
+
 //        System.out.println(WSplit+" "+counter);
 
 
@@ -48,4 +54,4 @@ public class practice02 {
 //        }
 //        System.out.println(Arrays.toString(WSplit));
    // }
-}
+

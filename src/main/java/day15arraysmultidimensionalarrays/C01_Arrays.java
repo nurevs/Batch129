@@ -11,7 +11,9 @@ public class C01_Arrays {
         Scanner input= new Scanner(System.in);
         System.out.println("Kac ogrenci ismi gireceksiniz");
         int numofStd=input.nextInt();
+
         String names[] =new String[numofStd];
+
         System.out.println("Cikmak istiyorsaniz lutfen Q harfine basiniz");
         for (int i = 1; i <=numofStd ;              i++) {
             System.out.println("Lutfen "+i+". ogrencinin ismini giriniz");
