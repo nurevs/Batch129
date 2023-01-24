@@ -1,7 +1,5 @@
 package kendipraktiklerim.apartman;
 
-import java.util.Dictionary;
-
 public class Daire extends Bina{
 
 
@@ -9,4 +7,7 @@ public class Daire extends Bina{
         super("Unal Apart");
         System.out.println("Daire No: "+DaireNo);
     }
+
+
+
 }

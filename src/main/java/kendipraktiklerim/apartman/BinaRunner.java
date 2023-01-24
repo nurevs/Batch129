@@ -6,5 +6,7 @@ public class BinaRunner {
 
 
         Kat myKat=new Kat();
+
+
     }
 }
