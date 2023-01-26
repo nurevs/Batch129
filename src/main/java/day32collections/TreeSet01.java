@@ -66,7 +66,19 @@ public class TreeSet01 {
         NavigableSet<Integer> tailSet3= ts.tailSet(12,false);
         System.out.println(tailSet3);//[25, 32]==> 12yi baktik, "false" diyerek onu yazdirma dedik
 
+        SortedSet<Integer> headSet1 = ts.headSet(12);
+        System.out.println(headSet1);// [3, 8]==> 12 elemanlardan biri "onceki elemanlar" bir Set icinde yazdirildi. 12 yazdirilmadi
 
+        SortedSet<Integer> headSet2 = ts.headSet(12, true);
+        System.out.println(headSet2);// [3, 8, 12]
+
+        //Generic Method: Normal method'lar parametrelerde belirtilen data type'lari ile calisirlar.
+        //                Generic Method'lar ise verilen her turlu data type ile calisma becerisine sahiptirler.
+        Integer higher1 = ts.higher(12);
+        System.out.println(higher1);// 25 ==> 12 den bir sonraki elemani verir
+
+        Integer lower1 = ts.lower(12);
+        System.out.println(lower1);// 8 ==> 12 den bir onceki elemani verir
 
 
 
