@@ -25,7 +25,7 @@ Beklenen Çıktı :**False**
         int arr[]={1551,1223,1443,1267,1789,1023,2020};
         boolean isContains = false;
         Scanner input=new Scanner(System.in);
-        System.out.println("Aranacak sayiyi yaziniz");
+        System.out.println("Aranacak sayiyi yaziniz: 1551,1223,1443,1267,1789,1023,2020");
         int num=input.nextInt();
 
         for (int i = 0; i < arr.length; i++) {
